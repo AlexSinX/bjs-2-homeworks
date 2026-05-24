@@ -1,3 +1,5 @@
+"use strict";
+
 function getArrayParams(...arr) {
     if (arr.length === 0) {
         return {min: 0, max: 0, avg: 0};
